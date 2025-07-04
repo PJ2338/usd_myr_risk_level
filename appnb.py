@@ -41,5 +41,3 @@ if st.button("Predict Risk Level"):
     st.subheader("Prediction:")
     st.write(f"🧭 The predicted USD/MYR risk level is: **{risk_map.get(prediction, 'Unknown')}**")
 
-from google.colab import files
-files.download("rf_model.pkl")
